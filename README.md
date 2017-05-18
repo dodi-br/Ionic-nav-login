@@ -1,3 +1,5 @@
+![alt text](https://travis-ci.org/raicerk/Ionic-nav-login.svg?branch=master)
+
 This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
 ## How to use this template
