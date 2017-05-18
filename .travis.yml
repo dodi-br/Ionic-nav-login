@@ -33,5 +33,6 @@ before_script:
   - export ANDROID_HOME=$PWD/android-sdk-linux
   - export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_HOME/build-tools/23.0.2
   - cordova platform add --save android
+  - ionic info
 script:
-  - ionic serve
+  - ionic cordova build
